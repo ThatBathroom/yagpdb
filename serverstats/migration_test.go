@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/common/testutils"
+	"github.com/ThatBathroom/yagpdb/common/testutils"
 )
 
 func TestMigrationToV2FormatMsgs(t *testing.T) {

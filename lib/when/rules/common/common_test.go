@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/when"
-	"github.com/botlabs-gg/yagpdb/v2/lib/when/rules/common"
+	"github.com/ThatBathroom/yagpdb/lib/when"
+	"github.com/ThatBathroom/yagpdb/lib/when/rules/common"
 	"github.com/stretchr/testify/require"
 )
 

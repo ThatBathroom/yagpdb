@@ -6,12 +6,12 @@ import (
 	"strings"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/bot"
-	"github.com/botlabs-gg/yagpdb/v2/bot/paginatedmessages"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/templates"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/bot"
+	"github.com/ThatBathroom/yagpdb/bot/paginatedmessages"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/templates"
+	"github.com/ThatBathroom/yagpdb/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/lib/discordgo"
 )
 
 func init() {

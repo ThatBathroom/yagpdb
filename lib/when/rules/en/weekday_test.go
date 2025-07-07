@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/when"
-	"github.com/botlabs-gg/yagpdb/v2/lib/when/rules"
-	"github.com/botlabs-gg/yagpdb/v2/lib/when/rules/en"
+	"github.com/ThatBathroom/yagpdb/lib/when"
+	"github.com/ThatBathroom/yagpdb/lib/when/rules"
+	"github.com/ThatBathroom/yagpdb/lib/when/rules/en"
 )
 
 func TestWeekday(t *testing.T) {

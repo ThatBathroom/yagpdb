@@ -3,9 +3,9 @@ package eventsystem
 import (
 	"testing"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/common"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/lib/discordgo"
 )
 
 type mockPlugin struct {

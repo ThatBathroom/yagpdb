@@ -1,6 +1,6 @@
 package trivia
 
-import "github.com/botlabs-gg/yagpdb/v2/common"
+import "github.com/ThatBathroom/yagpdb/common"
 
 type Plugin struct{}
 

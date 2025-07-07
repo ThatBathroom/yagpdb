@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/botlabs-gg/yagpdb/v2/bot"
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dstate"
+	"github.com/ThatBathroom/yagpdb/bot"
+	"github.com/ThatBathroom/yagpdb/commands"
+	"github.com/ThatBathroom/yagpdb/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/lib/dstate"
 )
 
 var Command = &commands.YAGCommand{

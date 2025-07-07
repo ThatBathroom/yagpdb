@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/pubsub"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
-	"github.com/botlabs-gg/yagpdb/v2/premium"
-	"github.com/botlabs-gg/yagpdb/v2/premium/models"
-	"github.com/botlabs-gg/yagpdb/v2/web"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/pubsub"
+	"github.com/ThatBathroom/yagpdb/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/premium"
+	"github.com/ThatBathroom/yagpdb/premium/models"
+	"github.com/ThatBathroom/yagpdb/web"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
 )
 

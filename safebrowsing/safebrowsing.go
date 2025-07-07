@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/backgroundworkers"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/backgroundworkers"
 	"goji.io/pat"
 )
 

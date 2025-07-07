@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/when/rules"
+	"github.com/ThatBathroom/yagpdb/lib/when/rules"
 )
 
 func Weekday(s rules.Strategy) rules.Rule {

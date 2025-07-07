@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/botlabs-gg/yagpdb/v2/bot/models"
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dstate"
-	"github.com/botlabs-gg/yagpdb/v2/stdcommands/util"
+	"github.com/ThatBathroom/yagpdb/bot/models"
+	"github.com/ThatBathroom/yagpdb/commands"
+	"github.com/ThatBathroom/yagpdb/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/lib/dstate"
+	"github.com/ThatBathroom/yagpdb/stdcommands/util"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
 )
 

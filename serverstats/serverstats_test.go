@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/common"
 
-	"github.com/botlabs-gg/yagpdb/v2/common/testutils"
+	"github.com/ThatBathroom/yagpdb/common/testutils"
 )
 
 var db *sql.DB

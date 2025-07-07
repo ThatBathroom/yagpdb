@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/models"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/models"
+	"github.com/ThatBathroom/yagpdb/lib/discordgo"
 )
 
 func createUserGuild(connected bool, owner bool, manageServer bool) *common.GuildWithConnected {

@@ -6,14 +6,14 @@ package commands
 import (
 	"context"
 
-	"github.com/botlabs-gg/yagpdb/v2/bot/eventsystem"
-	"github.com/botlabs-gg/yagpdb/v2/commands/models"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/config"
-	"github.com/botlabs-gg/yagpdb/v2/common/featureflags"
-	prfx "github.com/botlabs-gg/yagpdb/v2/common/prefix"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/bot/eventsystem"
+	"github.com/ThatBathroom/yagpdb/commands/models"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/config"
+	"github.com/ThatBathroom/yagpdb/common/featureflags"
+	prfx "github.com/ThatBathroom/yagpdb/common/prefix"
+	"github.com/ThatBathroom/yagpdb/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/lib/discordgo"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
 )
 

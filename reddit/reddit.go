@@ -8,12 +8,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/mqueue"
-	"github.com/botlabs-gg/yagpdb/v2/common/pubsub"
-	"github.com/botlabs-gg/yagpdb/v2/lib/go-reddit"
-	"github.com/botlabs-gg/yagpdb/v2/premium"
-	"github.com/botlabs-gg/yagpdb/v2/reddit/models"
+	"github.com/ThatBathroom/yagpdb/common"
+	"github.com/ThatBathroom/yagpdb/common/mqueue"
+	"github.com/ThatBathroom/yagpdb/common/pubsub"
+	"github.com/ThatBathroom/yagpdb/lib/go-reddit"
+	"github.com/ThatBathroom/yagpdb/premium"
+	"github.com/ThatBathroom/yagpdb/reddit/models"
 )
 
 const (
