@@ -1,4 +1,4 @@
-module github.com/ThatBathroom/yagpdb/v2
+module github.com/ThatBathroom/yagpdb
 
 go 1.23.3
 
