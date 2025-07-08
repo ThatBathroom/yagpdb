@@ -164,7 +164,7 @@ var cmdEvalCommand = &commands.YAGCommand{
 
 		// use stripped message content instead of parsed arg data to avoid dcmd
 		// from misinterpreting backslashes and losing spaces in input; see
-		// https://github.com/botlabs-gg/yagpdb/pull/1547
+		// https://github.com/ThatBathroom/yagpdb/pull/1547
 		code := common.ParseCodeblock(data.TraditionalTriggerData.MessageStrippedPrefix)
 
 		if channel == nil {
