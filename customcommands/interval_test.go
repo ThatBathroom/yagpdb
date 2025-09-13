@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/customcommands/models"
+	"github.com/ThatBathroom/yagpdb/v2/customcommands/models"
 	"github.com/robfig/cron/v3"
 	"github.com/volatiletech/null/v8"
 )

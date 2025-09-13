@@ -3,9 +3,9 @@ package sleep
 import (
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/stdcommands/util"
+	"github.com/ThatBathroom/yagpdb/v2/commands"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/v2/stdcommands/util"
 )
 
 var Command = &commands.YAGCommand{

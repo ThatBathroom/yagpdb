@@ -5,8 +5,8 @@ import (
 	"database/sql"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/personalizer/models"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/personalizer/models"
 )
 
 type Plugin struct{}

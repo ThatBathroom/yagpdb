@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/v2/commands"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dcmd"
 )
 
 type Joke struct {

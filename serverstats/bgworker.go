@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/backgroundworkers"
-	"github.com/botlabs-gg/yagpdb/v2/common/config"
-	"github.com/botlabs-gg/yagpdb/v2/premium"
-	"github.com/botlabs-gg/yagpdb/v2/serverstats/messagestatscollector"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/backgroundworkers"
+	"github.com/ThatBathroom/yagpdb/v2/common/config"
+	"github.com/ThatBathroom/yagpdb/v2/premium"
+	"github.com/ThatBathroom/yagpdb/v2/serverstats/messagestatscollector"
 	"github.com/mediocregopher/radix/v3"
 )
 

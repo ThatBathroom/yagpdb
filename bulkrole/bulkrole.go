@@ -3,8 +3,8 @@ package bulkrole
 import (
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
 	"github.com/mediocregopher/radix/v3"
 )
 

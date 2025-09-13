@@ -7,11 +7,11 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/cplogs"
-	"github.com/botlabs-gg/yagpdb/v2/tickets/models"
-	"github.com/botlabs-gg/yagpdb/v2/web"
+	"github.com/ThatBathroom/yagpdb/v2/commands"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/cplogs"
+	"github.com/ThatBathroom/yagpdb/v2/tickets/models"
+	"github.com/ThatBathroom/yagpdb/v2/web"
 	"github.com/volatiletech/sqlboiler/v4/boil"
 	"goji.io/pat"
 )

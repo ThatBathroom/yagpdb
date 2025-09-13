@@ -3,7 +3,7 @@ package discordgo
 import (
 	"encoding/json"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/gojay"
+	"github.com/ThatBathroom/yagpdb/v2/lib/gojay"
 	"github.com/pkg/errors"
 )
 

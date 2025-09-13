@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/cacheset"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/cacheset"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
 )
 
 // PublishRatelimit publishes a new global ratelimit hit on discord

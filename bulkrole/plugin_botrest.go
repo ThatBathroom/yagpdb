@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/common/internalapi"
+	"github.com/ThatBathroom/yagpdb/v2/common/internalapi"
 	"goji.io"
 	"goji.io/pat"
 )
