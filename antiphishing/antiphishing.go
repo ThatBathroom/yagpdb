@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/lib/confusables"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/lib/confusables"
 	"github.com/mediocregopher/radix/v3"
 	"github.com/sirupsen/logrus"
 )
@@ -182,7 +182,7 @@ func checkRemoteForPhishingUrl(input []string) (*BitFlowAntiFishResponse, error)
 	req.Header.Add("Content-Type", "application/json")
 	req.Header.Add("Accept", "*/*")
 	req.Header.Add("Content-Length", strconv.Itoa(len(queryString)))
-	req.Header.Add("User-Agent", "YAGPDB.xyz (https://github.com/botlabs-gg/yagpdb)")
+	req.Header.Add("User-Agent", "YAGPDB.xyz (https://github.com/ThatBathroom/yagpdb)")
 
 	resp, err := client.Do(req)
 	if err != nil {

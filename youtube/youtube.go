@@ -8,12 +8,12 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/config"
-	"github.com/botlabs-gg/yagpdb/v2/common/mqueue"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
-	"github.com/botlabs-gg/yagpdb/v2/premium"
-	"github.com/botlabs-gg/yagpdb/v2/youtube/models"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/config"
+	"github.com/ThatBathroom/yagpdb/v2/common/mqueue"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/premium"
+	"github.com/ThatBathroom/yagpdb/v2/youtube/models"
 	"google.golang.org/api/youtube/v3"
 )
 

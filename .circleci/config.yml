@@ -25,7 +25,7 @@ jobs: # basic units of work in a run
             VERSION=$(git describe --tags)
             cd cmd/yagpdb
             GOEXPERIMENT=jsonv2
-            go install -ldflags "-X github.com/botlabs-gg/yagpdb/v2/common.VERSION=${VERSION}"
+            go install -ldflags "-X github.com/ThatBathroom/yagpdb/v2/common.VERSION=${VERSION}"
             cd -
       - run: cd cmd/shardorchestrator && go install && cd -
       - run: cd cmd/capturepanics && go install && cd -

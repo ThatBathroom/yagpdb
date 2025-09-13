@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/botlabs-gg/yagpdb/v2/antiphishing"
-	"github.com/botlabs-gg/yagpdb/v2/bot"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/lib/confusables"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dstate"
-	"github.com/botlabs-gg/yagpdb/v2/safebrowsing"
+	"github.com/ThatBathroom/yagpdb/v2/antiphishing"
+	"github.com/ThatBathroom/yagpdb/v2/bot"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/lib/confusables"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dstate"
+	"github.com/ThatBathroom/yagpdb/v2/safebrowsing"
 	"github.com/mediocregopher/radix/v3"
 )
 

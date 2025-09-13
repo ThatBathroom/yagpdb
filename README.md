@@ -71,7 +71,7 @@ Put YAGPDB behind a reverse proxy (like Nginx, Caddy, etc.):
 If you have docker-compose installed, that might be the fastest route of getting the bot up and running:
 
 ```shell
-git clone https://github.com/botlabs-gg/yagpdb
+git clone https://github.com/ThatBathroom/yagpdb
 cp yagpdb/yagpdb_docker/{app.example.env,app.env}
 cp yagpdb/yagpdb_docker/{db.example.env,db.env}
 ```
@@ -115,7 +115,7 @@ Set up the environment variables with the credentials from the [general setup](#
 Afterwards, run the build script located at `/cmd/yagpdb/build.sh` and  start the bot using `./yagpdb`:
 
 ```shell
-git clone https://github.com/botlabs-gg/yagpdb
+git clone https://github.com/ThatBathroom/yagpdb
 cd yagpdb/cmd/yagpdb
 sh build.sh
 ./yagpdb -all

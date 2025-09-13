@@ -6,7 +6,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
 )
 
 type Response interface {

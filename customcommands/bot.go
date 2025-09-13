@@ -13,31 +13,31 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/botlabs-gg/yagpdb/v2/analytics"
-	"github.com/botlabs-gg/yagpdb/v2/lib/template"
-	"github.com/botlabs-gg/yagpdb/v2/premium"
-	"github.com/botlabs-gg/yagpdb/v2/web"
+	"github.com/ThatBathroom/yagpdb/v2/analytics"
+	"github.com/ThatBathroom/yagpdb/v2/lib/template"
+	"github.com/ThatBathroom/yagpdb/v2/premium"
+	"github.com/ThatBathroom/yagpdb/v2/web"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/bot"
-	"github.com/botlabs-gg/yagpdb/v2/bot/eventsystem"
-	"github.com/botlabs-gg/yagpdb/v2/commands"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/featureflags"
-	"github.com/botlabs-gg/yagpdb/v2/common/keylock"
-	"github.com/botlabs-gg/yagpdb/v2/common/multiratelimit"
-	prfx "github.com/botlabs-gg/yagpdb/v2/common/prefix"
-	"github.com/botlabs-gg/yagpdb/v2/common/pubsub"
-	"github.com/botlabs-gg/yagpdb/v2/common/scheduledevents2"
-	schEventsModels "github.com/botlabs-gg/yagpdb/v2/common/scheduledevents2/models"
-	"github.com/botlabs-gg/yagpdb/v2/common/templates"
-	"github.com/botlabs-gg/yagpdb/v2/customcommands/models"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dcmd"
-	"github.com/botlabs-gg/yagpdb/v2/lib/discordgo"
-	"github.com/botlabs-gg/yagpdb/v2/lib/dstate"
-	"github.com/botlabs-gg/yagpdb/v2/stdcommands/util"
+	"github.com/ThatBathroom/yagpdb/v2/bot"
+	"github.com/ThatBathroom/yagpdb/v2/bot/eventsystem"
+	"github.com/ThatBathroom/yagpdb/v2/commands"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/featureflags"
+	"github.com/ThatBathroom/yagpdb/v2/common/keylock"
+	"github.com/ThatBathroom/yagpdb/v2/common/multiratelimit"
+	prfx "github.com/ThatBathroom/yagpdb/v2/common/prefix"
+	"github.com/ThatBathroom/yagpdb/v2/common/pubsub"
+	"github.com/ThatBathroom/yagpdb/v2/common/scheduledevents2"
+	schEventsModels "github.com/ThatBathroom/yagpdb/v2/common/scheduledevents2/models"
+	"github.com/ThatBathroom/yagpdb/v2/common/templates"
+	"github.com/ThatBathroom/yagpdb/v2/customcommands/models"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dcmd"
+	"github.com/ThatBathroom/yagpdb/v2/lib/discordgo"
+	"github.com/ThatBathroom/yagpdb/v2/lib/dstate"
+	"github.com/ThatBathroom/yagpdb/v2/stdcommands/util"
 	"github.com/sirupsen/logrus"
 	"github.com/vmihailenco/msgpack"
 	"github.com/volatiletech/null/v8"
@@ -165,7 +165,7 @@ var cmdEvalCommand = &commands.YAGCommand{
 
 		// use stripped message content instead of parsed arg data to avoid dcmd
 		// from misinterpreting backslashes and losing spaces in input; see
-		// https://github.com/botlabs-gg/yagpdb/pull/1547
+		// https://github.com/ThatBathroom/yagpdb/pull/1547
 		code := common.ParseCodeblock(data.TraditionalTriggerData.MessageStrippedPrefix)
 
 		if channel == nil {

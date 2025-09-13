@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"emperror.dev/errors"
-	"github.com/botlabs-gg/yagpdb/v2/common"
-	"github.com/botlabs-gg/yagpdb/v2/common/backgroundworkers"
-	"github.com/botlabs-gg/yagpdb/v2/common/scheduledevents2/models"
+	"github.com/ThatBathroom/yagpdb/v2/common"
+	"github.com/ThatBathroom/yagpdb/v2/common/backgroundworkers"
+	"github.com/ThatBathroom/yagpdb/v2/common/scheduledevents2/models"
 	"github.com/mediocregopher/radix/v3"
 	"github.com/volatiletech/sqlboiler/v4/queries/qm"
 )

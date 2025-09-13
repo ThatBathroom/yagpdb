@@ -10,7 +10,7 @@ To use shardorchestrator in your YAGPDB Instance, you need to do the following t
 
 Clone the repository if you haven't already:
 ```bash
-git clone https://github.com/botlabs-gg/yagpdb.git
+git clone https://github.com/ThatBathroom/yagpdb.git
 ```
 
 Navigate to the `cmd/shardorchestrator` directory:
